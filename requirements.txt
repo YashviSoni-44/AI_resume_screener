@@ -1,0 +1,13 @@
+openai==1.23.0
+langchain==0.2.1
+weaviate-client==3.24.1
+fastapi==0.110.0
+uvicorn==0.27.1
+python-multipart
+pydantic
+python-dotenv
+PyMuPDF==1.22.5
+langchain-community>=0.0.30
+pandas
+aiofiles
+langchain-openai==0.0.6
