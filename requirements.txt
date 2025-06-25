@@ -7,7 +7,6 @@ python-multipart
 pydantic
 python-dotenv
 PyMuPDF==1.22.5
-langchain-community>=0.0.30
 pandas
 aiofiles
 langchain-openai==0.0.6
