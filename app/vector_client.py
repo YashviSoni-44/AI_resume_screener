@@ -106,7 +106,7 @@ def upload_job_roles(client, csv_path="data/job_roles.csv"):
         )
     print("✅ Job roles uploaded to Weaviate")
 
-def match_resume_to_roles(client, resume_text, top_k=3):
+def match_resume_to_roles(client, resume_text, top_k=1):
     embedder = OpenAIEmbeddings()
     vector = embedder.embed_query(resume_text)
 
